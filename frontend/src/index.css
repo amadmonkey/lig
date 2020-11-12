@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: "Montserrat", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body .jp {
+  font-family: "Yu Gothic", serif;
+}
+
+button {
+  font-family: inherit;
+  letter-spacing: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  outline:none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.link {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+  margin: 7px 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+  transition: 0.1s;
+  background: none;
+  border:none;
+}
+
+.link::before {
+  content: '';
+  position: absolute;
+  background-color: #3573a7;
+  height: 1px;
+  width: 0;
+  bottom: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.link:hover {
+  color: #3573a7;
+}
+
+.link:hover:before {
+  width: 100%;
+}

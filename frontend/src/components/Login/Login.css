@@ -1,0 +1,97 @@
+.login-container {
+    height: 666px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.login-form-container {
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.login-form-container .form-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 0;
+}
+
+.login-form-container form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form-container form .general-note {
+    height: 60px;
+    border: 1px solid #95cc36;
+    background-color: #b2ff96;
+    padding: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.login-form-container form .general-note.SUCCESS {
+    border: 1px solid #95cc36;
+    background-color: #b2ff96;
+}
+
+.login-form-container form .general-note.ERROR {
+    border: 1px solid #f01e1e;
+    background-color: #e25f5f;
+}
+
+.login-form-container form .form-group label {
+    display: block;
+    font-size: 18px;
+}
+
+.login-form-container form .form-group .error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+.login-form-container form .form-group input {
+    margin-top: 5px;
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.login-form-container form .form-group input.error {
+    border: 1px solid red;
+    outline-color: red;
+    color: red;
+}
+
+.login-form-container form .form-group button {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    transition: 0.1s;
+}
+
+.login-form-container form .form-group button.loading {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.login-form-container > span {
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 17px 0;
+} 
+
+.login-form-container > span a {
+    font-weight: bold;
+}

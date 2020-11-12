@@ -1,0 +1,58 @@
+.footer-container {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* info */
+.footer-container .info {
+    position: relative;
+    background-color: #292929;
+    line-height: 32px;
+    box-sizing: border-box;
+}
+
+.footer-container .info .wrapper {
+    position: relative;
+    height: 274px;
+    padding: 70px 0;
+    box-sizing: border-box;
+}
+
+.footer-container .info .wrapper button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 70px;
+    width: 70px;
+    background-color: #fff;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.footer-container .info .wrapper button svg {
+    margin: 7px;
+}
+
+.footer-container .info .wrapper .footer-logo {
+    margin-bottom: 40px;
+}
+
+.footer-container .info .wrapper p {
+    max-width: 414px;
+}
+
+/* copyright */
+.footer-container .copyright {
+    height: 90px;
+    padding: 35px 0;
+    box-sizing: border-box;
+    background-color: #101010;
+    font-weight: normal;
+}
+
+.footer-container .copyright span {
+    text-align: center;
+    display: block;
+}

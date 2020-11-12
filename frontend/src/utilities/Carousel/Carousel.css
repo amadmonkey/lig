@@ -1,0 +1,130 @@
+.carousel-container {
+    position: relative;
+    max-width: 1366px;
+    height: 666px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.carousel-container .carousel-item {
+    position: absolute;
+    opacity: 0;
+    object-fit: cover;
+    height: 666px;
+    transition: 0.2s ease-in-out;
+    pointer-events: none;
+    width: 100%;
+}
+
+.carousel-container .carousel-item.active {
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.carousel-container .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-container footer {
+    position: relative;
+    height: 100%;
+}
+
+.carousel-container footer > button {
+    background: rgba(0,0,0,0);
+    /* background: linear-gradient(0, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 65%, rgba(0,0,0,0) 82%, rgba(0,0,0,0) 100%); */
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    padding: 0;
+}
+
+.carousel-container footer > button:first-child svg {
+    transform: rotate(-90deg);
+}
+
+.carousel-container footer > button:last-child svg{
+    transform: rotate(90deg);
+}
+
+.carousel-container footer > button:first-child:hover {
+    background: linear-gradient(270deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.0984768907563025) 30%, rgba(0,0,0,0.19931722689075626) 50%, rgba(0,0,0,0.3) 65%, rgba(0,0,0,0.4) 82%, rgba(0,0,0,0.5) 100%);
+}
+
+.carousel-container footer > button:last-child:hover {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.0984768907563025) 30%, rgba(0,0,0,0.19931722689075626) 50%, rgba(0,0,0,0.3) 65%, rgba(0,0,0,0.4) 82%, rgba(0,0,0,0.5) 100%);
+}
+
+.carousel-container footer > div {
+    position: relative;
+}
+
+.carousel-container footer > div .description {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+.carousel-container footer > div .description a {
+    background-color: black;
+    text-decoration: none;
+}
+
+.carousel-container footer > div .description .title {
+    color: white;
+    width: 600px;
+    font-size: 60px;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+}
+
+
+.carousel-container footer > div .description .title span {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    text-align: right;
+    padding: 15px 25px 0 10px;
+    margin-bottom: 8px;
+    letter-spacing: 5px;
+}
+
+
+.carousel-container footer > div .description .date{
+    display: block;
+    font-size: 28px;
+    margin-top: 20px;
+    line-height: 34px;
+    letter-spacing: 5px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.carousel-container footer > div .bullets {
+    position: absolute;
+    bottom: 50px;
+    width: auto;
+    left: 50%;
+}
+
+.carousel-container footer > div .bullets li {
+    display: inline-block;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+}
+
+.carousel-container footer > div .bullets .bullet-cursor {
+    position: absolute;
+    background-color: black;
+    opacity: 1;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+}

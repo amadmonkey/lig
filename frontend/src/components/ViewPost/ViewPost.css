@@ -1,0 +1,121 @@
+.view-post-container {
+
+}
+
+.view-post-container .tools {
+    height: 120px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+
+.view-post-container .tools > * {
+    margin: 63px 0 33px 0;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+/* .view-post-container .tools button,
+.view-post-container .tools a {
+    margin: 63px 0 33px 0;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+} */
+
+.view-post-container .post-date {
+    font-size: 20px;
+}
+
+.view-post-container .post-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 34px;
+}
+
+.view-post-container .post-image-container {
+    height: 540px;
+    margin-top: 47px;
+}
+
+.view-post-container .post-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.view-post-container .post-content {
+    line-height: 40px;
+    margin: 60px 0;
+    white-space: pre-line
+}
+
+.post-comments-container {
+    margin: 60px 0 88px 0;
+    padding: 60px 0;
+    border-top: 1px solid black;
+}
+
+.post-comments-container > h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 39px;
+}
+
+.post-comments-container .comment-item {
+    margin-bottom: 50px;
+    padding: 60px 47px 53px 40px;
+    background-color: #F5F5F5;
+}
+
+.post-comments-container .comment-item > p {
+    font-size: 18px;
+}
+
+.post-comments-container .comment-item time,
+.post-comments-container .comment-item .comment-date {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 21px;
+    display: block;
+}
+
+.post-comments-container .new-comment-form {
+    text-align: right;
+}
+
+.post-comments-container .new-comment-form .form-group {
+    margin-bottom: 40px;
+}
+
+.post-comments-container .new-comment-form label {
+    margin-top: 5px;
+    display: block;
+    color: red;
+}
+
+.post-comments-container .new-comment-form .comment-box {
+    font-size: 19px;
+    padding: 44px 39px;
+    border: 1px solid black;
+    border-radius: 0;
+    resize: none;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    font-style: italic;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+}
+
+.post-comments-container .new-comment-form > button{
+    width: 210px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}

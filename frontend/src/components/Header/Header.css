@@ -1,0 +1,27 @@
+.header-container {
+    height: 100px;
+    padding: 35px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container .header-button {
+    font-size: 18px;
+    font-weight: bold;
+    height: 20px;
+}
+
+.breadcrumbs-container {
+    width: 100%;
+    font-size: 16px;
+    height: 80px;
+    background-color: #F5F5F5;
+}
+
+
+.breadcrumbs-container a {
+    text-decoration: none;
+    color: black;
+    line-height: 80px;
+}

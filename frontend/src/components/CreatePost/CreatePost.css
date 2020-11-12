@@ -1,0 +1,79 @@
+.create-post-container {
+    padding: 30px 0 160px 0;
+}
+
+.create-post-container h1 {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.create-post-container .tools {
+    text-align: right;
+    margin: 33px 0;
+}
+
+.create-post-container .tools > *{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+.create-post-container .new-post-form .form-group:first-child {
+    margin: 19px 0;
+}
+
+.create-post-container .new-post-form .new-post-title {
+    height: 150px;
+    font-size: 40px;
+    border: 1px solid #707070;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 14px 18px;
+}
+
+.create-post-container .new-post-form .form-group:nth-child(2) {
+    margin-bottom: 36px;
+}
+
+.create-post-container .new-post-form .image-container {
+    height: 450px;
+    position: relative;
+}
+
+.create-post-container .new-post-form .image-container #image {
+    background-color: #D6D6D6;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: none;
+}
+
+.create-post-container .new-post-form .image-container button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 260px;
+    height: 70px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.create-post-container .new-post-form textarea {
+    height: 394px;
+    width: 100%;
+    border-radius: 0;
+    resize: none;
+    padding: 23px 25px 15px 24px;
+    box-sizing: border-box;
+}
+
+.create-post-container .form-group .error-message {
+    color: red;
+    margin-top: 5px;
+    display: block
+}
